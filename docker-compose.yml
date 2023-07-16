@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+
+  summer-break:
+    build: .
+    restart: always
+    ports:
+      - "8080:8080"
